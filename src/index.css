@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(248, 249, 250);
+}
+
+.hover-img {
+  transition: transform 0.3s ease;
+}
+.hover-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.circle {
+  width: 42px;
+  height: 38px;
+  box-shadow: 1px 1px 6px red;
+}
+
+.h-20 {
+  height: 28px;
+}
+
+.text-blue {
+  color: #100ad1;
+}
