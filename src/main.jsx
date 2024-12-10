@@ -11,7 +11,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/Proyecto-Facturacion/'>
         <AppRouter />
       </BrowserRouter>
     </Provider>
