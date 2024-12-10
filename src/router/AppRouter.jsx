@@ -11,6 +11,7 @@ export const AppRouter = () => {
         <Route path='/factura' element={<Factura />} />
         <Route path='/facturas' element={<FacturasList />} />
 
+        <Route path='*' element={<Navigate to={'/'} />} />
         <Route path='/*' element={<Navigate to={'/'} />} />
       </Routes>
     </>
