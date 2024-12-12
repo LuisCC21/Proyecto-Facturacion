@@ -26,7 +26,7 @@ export const TableFactura = ({ factura }) => {
                         </p>
                     </div>
                     <img
-                        src='./src/assets/logo_farinter.PNG'
+                        src='assets/logo_farinter.PNG'
                         alt='Logo'
                         width={200}
                         className='rounded'
