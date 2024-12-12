@@ -1,5 +1,5 @@
 import { format, parseISO } from 'date-fns';
-import React from 'react'
+
 
 export const TableFactura = ({ factura }) => {
     const products = JSON.parse(factura.productos)
